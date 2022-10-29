@@ -94,7 +94,7 @@ namespace dz4_2
                 }
             }
 
-
+            // Пузырьковый метод сортировки
             int temp;
             for(int i=0; i<n1; i++)
             {
