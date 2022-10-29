@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Security.Cryptography;
 
-namespace dz4
+namespace dz4_2
 {
     class Program
     {
