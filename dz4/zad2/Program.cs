@@ -44,7 +44,7 @@ namespace dz4_2
             {
                 for (int j = 0; j < n2; j++)
                 {
-                    array[i,j] = rand.Next(0, 200) - 100;
+                    array[i,j] = rand.Next(-5, 5);
                     Console.Write($"{array[i,j]}  ");
                 }
                 Console.WriteLine();
@@ -98,7 +98,7 @@ namespace dz4_2
             int temp;
             for(int i=0; i<n1; i++)
             {
-                for(int j= i + 1; j < n1; j++)
+                for(int j= i + 1; j < n2; j++)
                 {
                     if (sums[i] > sums[j])
                     {

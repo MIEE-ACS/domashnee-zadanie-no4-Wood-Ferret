@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Security.Cryptography;
 
+
 namespace dz4_2
 {
     class Program
@@ -18,7 +19,7 @@ namespace dz4_2
                     if (n > 0)
                     {
                         break;
-                    }
+                    }   
                     else Console.WriteLine("Вывод должен быть целым, положительным числом");
                 }
                 else Console.WriteLine("Ввод должен быть целым числом");
